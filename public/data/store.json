@@ -1,0 +1,68 @@
+{
+  "farms": [
+    {
+      "id": "farm-1",
+      "name": "Ram Singh Farm",
+      "location": "Mathura, UP",
+      "crop": "Wheat",
+      "area": 1.2,
+      "status": "Active",
+      "createdAt": "2026-03-01T00:00:00.000Z"
+    },
+    {
+      "id": "farm-2",
+      "name": "Sharma Fields",
+      "location": "Mathura, UP",
+      "crop": "Mustard",
+      "area": 0.8,
+      "status": "Active",
+      "createdAt": "2026-03-01T00:00:00.000Z"
+    },
+    {
+      "id": "farm-3",
+      "name": "Gupta Farm",
+      "location": "Vrindavan, UP",
+      "crop": "Wheat",
+      "area": 1.5,
+      "status": "Active",
+      "createdAt": "2026-03-01T00:00:00.000Z"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "alert-1",
+      "date": "2026-03-14",
+      "farm": "Ram Singh Farm (Plot 2)",
+      "crop": "Wheat",
+      "risk": "High",
+      "status": "new",
+      "source": "synthetic-demo"
+    },
+    {
+      "id": "alert-2",
+      "date": "2026-03-14",
+      "farm": "Sharma Fields (Plot 1)",
+      "crop": "Mustard",
+      "risk": "Medium",
+      "status": "ack",
+      "source": "synthetic-demo"
+    },
+    {
+      "id": "alert-3",
+      "date": "2026-03-10",
+      "farm": "Gupta Farm (Plot 3)",
+      "crop": "Wheat",
+      "risk": "Low",
+      "status": "done",
+      "source": "synthetic-demo"
+    }
+  ],
+  "settings": {
+    "name": "Nimish Gupta",
+    "email": "nimishg150@gmail.com",
+    "location": "Mathura, Uttar Pradesh",
+    "sms": true,
+    "whatsapp": true,
+    "updatedAt": "2026-10-26T05:47:44.495Z"
+  }
+}
