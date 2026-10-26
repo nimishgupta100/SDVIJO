@@ -1,0 +1,12 @@
+{
+  "name": "agrisat-alert",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AgriSat Alert prototype with persistent local API",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
